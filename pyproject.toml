@@ -1,0 +1,27 @@
+[project]
+name = "multimodal-travel-assistant"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "deshana_compling", email = "262857009+deshana-compling@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.15.0",
+    "diffusers>=0.40.0",
+    "google>=3.0.0",
+    "google-genai>=2.25.0",
+    "gradio>=6.28.0",
+    "openai>=3.19.2",
+    "python-dotenv>=1.2.3",
+    "torch>=2.14.0",
+    "transformers>=5.17.0",
+]
+
+[project.scripts]
+multimodal-travel-assistant = "multimodal_travel_assistant:main"
+
+[build-system]
+requires = ["uv_build>=0.12.4,<0.13.0"]
+build-backend = "uv_build"
