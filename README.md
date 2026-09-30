@@ -15,14 +15,14 @@ The video shows MeRoamy responding conversationally, searching the package datab
 * 🔊 Text-to-speech responses
 * 🖥️ Gradio interface for interacting with the assistant
 
-[MeRoamy Gradio UI](meroamy_gradioui.png)
+![MeRoamy Gradio UI](images/meroamy_gradioui.png)
 
 
 ## How It Works
 
 MeRoamy combines an LLM with a local travel-package database.
 
-![MeRoamy Pipeline](meroamy_pipeline.jpg)
+![MeRoamy Pipeline](images/meroamy_pipeline.jpg)
 
 When a user asks about a destination, Gemini can decide to call the `search_packages` tool. The tool searches the SQLite database and returns the relevant package information to the user in voice and textual formats.
 
